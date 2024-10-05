@@ -22,9 +22,9 @@ NEWS_API = "648ed12df9444c98a8f7276b13dc3555"
 
 #twilio api details
 
-account_sid = os.getenv('account_sid')
-auth_token = os.getenv('auth_token')
-phone = os.getenv('phone')
+account_sid = os.getenv('account_sid') #Add Your twilio account_sid
+auth_token = os.getenv('auth_token') #Add Your twilio auth_sid
+phone = os.getenv('phone') #Add Your twilio phone number
 
 class st_homepage(View):
 
@@ -74,7 +74,7 @@ class st_allstocks(View):
         current_user = request.user
         user_stock = UserStock.objects.filter(user=current_user)
 
-        #model update update stock data
+        #model update stock data
         for i in range(len(user_stock)):
             stock = user_stock[i]
             stock.lower_limit = ll[i]
