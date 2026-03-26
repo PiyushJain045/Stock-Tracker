@@ -26,4 +26,27 @@ That's it! Access the web app at the URL provided by the Django development serv
 **Note
 Login as superuser: After running the development server, visit /admin, log in as the superuser, and navigate to the stock tracking page and their you can add new user as well as phone number on which the sms should be received.
 
+Screenshots
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-26 184325" src="https://github.com/user-attachments/assets/c685c893-9357-4369-8ab8-4d9186f0e302" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-26 184354" src="https://github.com/user-attachments/assets/2dc51c7e-a907-4bae-9ec4-47ce05c4f314" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-26 184758" src="https://github.com/user-attachments/assets/7e05ed96-12bd-451f-beef-39a199648200" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
